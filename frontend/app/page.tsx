@@ -11,7 +11,7 @@ import { SecondSection } from "./components/SecondSection";
 import { ThirdSection } from "./components/ThirdSection";
 import { Preloader } from './components/Preload';
 import DealsSection from './components/DealSection';
-import { WelcomePopup } from './components/Popup';
+
 
 const Home = () => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
     <>
-      <WelcomePopup />
+      
       <div className="bg-[#f8f7f6] min-h-screen">
         <Navbar />
         <Hero />
