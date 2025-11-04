@@ -121,7 +121,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         >
           <Image
-            src="/herocookie.png"
+            src="/herocookie.webp"
             alt="Chocolate cookie stack"
             width={800}
             height={800}
